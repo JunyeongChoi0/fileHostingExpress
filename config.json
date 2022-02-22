@@ -1,0 +1,84 @@
+{
+  "ok": true,
+  "data": {
+    "notifications": [
+      {
+        "id": "221111623",
+        "toast": {
+          "type": "info",
+          "message": "refund test",
+          "options": { "autoClose": 50000 }
+        },
+        "startedAt": "2022-02-17T00:00:00.000+09:00",
+        "expiredAt": "2022-03-01T23:59:59.000+09:00",
+        "allow": {
+          "times": [{ "start": "09:00:00.000", "end": "00:00:00.999" }]
+        },
+        "deny": null,
+        "paths": ["/estimation/refund/tax"]
+      },
+      {
+        "id": "221111111",
+        "toast": {
+          "type": "info",
+          "message": "모든 페이지에서 뜨는 토스트",
+          "options": { "autoClose": 50000 }
+        },
+        "startedAt": "2022-02-17T00:00:00.000+09:00",
+        "expiredAt": "2022-03-01T23:59:59.000+09:00",
+        "allow": {
+          "times": [{ "start": "09:00:00.000", "end": "00:00:00.999" }]
+        },
+        "deny": null,
+        "paths": ["/*"]
+      },
+      {
+        "id": "221111664",
+        "toast": {
+          "type": "info",
+          "message": "테스트",
+          "options": { "autoClose": 50000 }
+        },
+        "startedAt": "2022-02-17T00:00:00.000+09:00",
+        "expiredAt": "2022-03-01T23:59:59.000+09:00",
+        "allow": {
+          "times": [{ "start": "09:00:00.000", "end": "00:00:00.999" }]
+        },
+        "deny": null,
+        "paths": ["/login", "/signup", "/estimation/*"]
+      },
+      {
+        "id": "22111160132",
+        "toast": {
+          "type": "info",
+          "message": "walkThrough5",
+          "options": { "autoClose": 50000 }
+        },
+        "startedAt": "2022-02-17T00:00:00.000+09:00",
+        "expiredAt": "2022-03-01T23:59:59.000+09:00",
+        "allow": {
+          "times": [{ "start": "09:00:00.000", "end": "00:00:00.999" }]
+        },
+        "deny": null,
+        "paths": ["/walkThrough"]
+      },
+      {
+        "id": "2211116001",
+        "toast": {
+          "type": "info",
+          "message": "walkThrough2",
+          "options": { "autoClose": 50000 }
+        },
+        "startedAt": "2022-02-17T00:00:00.000+09:00",
+        "expiredAt": "2022-03-01T23:59:59.000+09:00",
+        "allow": {
+          "times": [{ "start": "09:00:00.000", "end": "00:00:00.999" }]
+        },
+        "deny": null,
+        "paths": ["/walkThrough"]
+      }
+    ],
+    "hasClosedSite": false,
+    "scrappingAsync": true
+  }
+}
